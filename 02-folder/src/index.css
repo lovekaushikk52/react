@@ -1,0 +1,26 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family:'arial';
+}
+
+html,body{
+  height:100%;
+  width:100%;
+}
+
+.card{
+  margin:20px;
+  padding: 20px;
+  background-color:pink;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 12px;
+}
+
+.nav{
+  background: skyblue;
+  border-radius: 12px;
+  margin:20px;
+  padding: 20px;
+}
