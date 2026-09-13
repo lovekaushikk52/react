@@ -17,7 +17,12 @@ function App() {
   const subValue=()=>{
     console.log("clicked2",counter)
     // counter=counter-1
-    setCounter(counter-1)
+    if(counter>0){
+        setCounter(counter-1)
+    }
+    else{
+      console.log("can't go below 0")
+    }
   }
 
   return (
